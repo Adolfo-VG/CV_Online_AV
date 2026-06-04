@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Online - Adolfo Valdebenito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                ADOLFO.VG
+            </a>
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCV"
+                    aria-controls="navbarCV"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCV">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#perfil">
+                            Sobre mí
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Habilidades
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item"
+                                   href="#habilidades-tecnicas">
+                                    Técnicas
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"
+                                   href="#habilidades-blandas">
+                                    Blandas
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formacion">
+                            Formación
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Proyectos">
+                            Proyectos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-2">
+                    <button id="themeBtn"
+                            class="btn btn-theme">
+                        <i class="bi bi-moon-fill"></i>
+                    </button>
+                    <a href="cv.pdf"
+                       class="btn btn-cv">
+                        Descargar CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="inicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Bienvenido a mi portafolio</p>
+                    <h1>Adolfo I. Valdebenito G.</h1>
+                    <h2>Estudiante de Analista Programador</h2>
+                    <p>Interesado en desarrollo web y análisis de datos
+                        Actualmente me encuentro fortaleciendo mis conocimientos
+                        mediante Cursos Full-Stack Javascript y en proyectos personales.
+                    </p>
+                    <a href="#Proyectos" class="btn btn-primary">
+                        Ver Proyectos
+                    </a>
+                    <a href="#contacto" class="btn btn-secondary">
+                        Contacto
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/FotoPerfil.jpg"
+                         alt="Foto Adolfo Valdebenito"
+                         class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+<main>
+    <section id="perfil">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p>
+                Soy estudiante de Analista Programador con interés en desarrollo web
+                y el análisis de datos, actualmente me encuentro fortaleciendo
+                mis conocimientos mediante cursos y proyectos personales utilizando
+                tecnologías como HTML, CSS, JavaScript y Bootstrap5
+            </p>
+            <p>
+                Me gusta aprender nuevas tecnologías, analizat y resolver problemas ademas de
+                buscar soluciones que permitan optimizar los procesos y mejorar la experiencia de
+                los usuarios.
+            </p>
+        </div>
+    </section>
+    <section id="habilidades" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Habilidades</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card skill-card h-100">
+                        <div class="card-body">
+                            <h5 class="mb-3">
+                                <i class="bi bi-code-slash me-2"></i>
+                                Frontend
+                            </h5>
+                            <div class="skills-list">
+                                <span class="skill-badge primary">HTML5</span>
+                                <span class="skill-badge secondary">CSS3</span>
+                                <span class="skill-badge accent">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card skill-card h-100">
+                        <div class="card-body">
+                            <h5 class="mb-3">
+                                <i class="bi bi-server me-2"></i>
+                                Backend
+                            </h5>
+                            <div class="skills-list">
+                                <span class="skill-badge"></span>
+                                <span class="skill-badge"></span>
+                                <span class="skill-badge"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card skill-card h-100">
+                        <div class="card-body">
+
+                            <h5 class="mb-3">
+                                <i class="bi bi-database me-2"></i>
+                                Bases de Datos
+                            </h5>
+                            <div class="skills-list">
+                                <span class="skill-badge">PL/SQL</span>
+                                <span class="skill-badge">MySQL</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card skill-card h-100 soft-card">
+                        <div class="card-body">
+
+                            <h5 class="mb-3">
+                                <i class="bi bi-person-check me-2"></i>
+                                Blandas
+                            </h5>
+                            <ul class="soft-list">
+                                <li><i class="bi bi-lightbulb me-2"></i>Pensamiento analítico</li>
+                                <li><i class="bi bi-gear me-2"></i>Resolución de problemas</li>
+                                <li><i class="bi bi-search me-2"></i>Investigación autónoma</li>
+                                <li><i class="bi bi-arrow-repeat me-2"></i>Perseverancia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="formacion">
+        <div class="container">
+            <h2>Formación Académica</h2>
+            <article>
+                <h3>Analista Programador</h3>
+                <p>
+                    Instituto Profesional San Sebastián
+                </p>
+                <p>
+                    Formación orientada al desarrollo de software, bases de datos,
+                    programación y tecnologías de la información.
+                </p>
+            </article>
+            <article>
+                <h3>Bootcamp Full Stack JavaScript</h3>
+                <p>Talento Digital para Chile / SENCE
+                </p>
+                <p>Formación en desarrollo Full Stack utilizando JavaScript,
+                    incluyendo frontend, backend, bases de datos y desarrollo web.
+                </p>
+            </article>
+        </div>
+    </section>
+    <section id="certificaciones">
+        <div class="container">
+            <h2>Cursos y Certificaciones</h2>
+            <ul>
+                <li>Bootcamp Full Stack JavaScript - Talento Digital para Chile (En curso)</li>
+                <li>Próximamente</li>
+                <li>Próximamente</li>
+            </ul>
+        </div>
+    </section>
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Proyectos</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100">
+                        <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto N°1">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">CV Online</h5>
+                            <p class="card-text">
+                                Sitio web personal tipo portafolio desarrollado con HTML, CSS y Bootstrap.
+                            </p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-primary btn-sm">Ver Proyecto</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100">
+                        <img src="img/proyecto2.jpg" class="card-img-top" alt="Proyecto N°2">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Próximamente</h5>
+                            <p class="card-text">
+                                Próximamente
+                            </p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-primary btn-sm">Ver Proyecto</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card project-card h-100">
+                        <img src="img/proyecto3.jpg" class="card-img-top" alt="Proyecto N°3">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Próximamente</h5>
+                            <p class="card-text">
+                                Próximamente
+                            </p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-primary btn-sm">Ver Proyecto</a>
+                                <a href="#" class="btn btn-outline-secondary btn-sm">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="container">
+            <h2>Contáctame</h2>
+            <p>
+            <p>¿Quieres contactarme? Déjame un mensaje.</p>
+            <form>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div>
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo">
+                </div>
+                <div>
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto">
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje"
+                              name="mensaje"
+                              rows="5"></textarea>
+                </div>
+                <button type="submit">
+                    Enviar mensaje
+                </button>
+            </form>
+            <hr>
+            <div class="redes-sociales">
+                <a href="Avaldebenito2020@gmail.com"
+                   target="_blank">
+                    Gmail
+                </a>
+                <a href="https://wa.me/56977829985"
+                   target="_blank">
+                    WhatsApp
+                </a>
+                <a href="www.linkedin.com/in/adolfo-valdebenito"
+                   target="_blank">
+                    LinkedIn
+                </a>
+                <a href="https://github.com/Adolfo-VG"
+                   target="_blank">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+    <i class="bi bi-envelope-fill"></i>
+    <i class="bi bi-whatsapp"></i>
+    <i class="bi bi-linkedin"></i>
+    <i class="bi bi-github"></i>
+</main>
+<footer>
+    <p>© 2026 Adolfo Valdebenito</p>
+    <p>Desarrollado con HTML5, CSS3, Bootstrap5 y JavaScript</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
